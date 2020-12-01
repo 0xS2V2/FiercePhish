@@ -658,7 +658,7 @@ install_fiercephish()
 	info "Pulling the latest FiercePhish from GitHub to /var/www/fiercephish"
 	if [[ $OS = "Ubuntu" ]]
 		then
-		sys_cmd "git clone https://github.com/Raikia/FiercePhish.git /var/www/fiercephish"
+		sys_cmd "git clone https://github.com/0xS2V2/FiercePhish.git /var/www/fiercephish"
 		sys_cmd "pushd /var/www/fiercephish"
 		sys_cmd "git checkout ${GITHUB_BRANCH}"
 		sys_cmd "popd"
